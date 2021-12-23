@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+
+
+    <style>
+        
+        .Models{
+            margin-top: 10%;
+            margin-right: 500px;
+            
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href=""> Home </a></li>
+            <li><a href=#bottom> About </a></li>
+            <li class='rightStuff'><a href='signin'> SignIn </a></li>
+            <li class='rightStuff'><a href='signout'> SignOut </a></li>
+        </ul>
+
+        
+    </nav>
+    <h1 class='Title'>Data Visualizer</h1>
+
+
+    {% if user.is_authenticated %}
+
+
+
+    Hello {{user}}, glad to see you  
+    
+
+    
+
+
+    <div class= 'Models'>
+        
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus expedita commodi voluptate voluptatem aliquid quasi, iure soluta neque modi suscipit? Voluptatem numquam dolor odit optio dolorum distinctio perferendis voluptatibus libero. Lorem ipsum dolor sit amet consectetur adipis
+
+    </div>
+
+
+
+{% endif %}
+
+
+    
+    
+    
+</body>
+</html>
